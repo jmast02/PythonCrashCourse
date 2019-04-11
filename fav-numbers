@@ -1,0 +1,12 @@
+favorite_numbers = {
+    'jon': [1, 5, 7],
+    'bob': [3, 54, 34],
+    'henry': [2, 5, 45,]
+}
+
+for person, numbers in favorite_numbers.items():
+    print(f"Here are {person.title()}'s favorite numbers:")
+    for number in numbers:
+        print(number)
+
+

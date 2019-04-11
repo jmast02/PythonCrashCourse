@@ -1,0 +1,20 @@
+def make_album(artist, album_title,):
+    album = {'artist': artist, 'album' : album_title}
+    return album
+
+print('Please enter artist name ')
+print('Type "q" to quit.')
+print('Please enter artist album title ')
+
+while True:
+
+    artist = input('Artist: ')
+    if artist =='q' :
+        break
+    album = input('Album: ')
+    if album == 'q':
+        break
+
+
+    user1 = make_album(artist, album)
+    print(user1)
