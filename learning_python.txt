@@ -1,0 +1,4 @@
+I love Python.
+I have learned a lot so far through the first 10 chapters.
+Let's keep learning python!
+
